@@ -51,19 +51,23 @@ O projeto foi desenvolvido como uma aplicação full-stack, com:
    git clone https://github.com/en20/DesafioSouEnergy.git
    cd DesafioSouEnergy
    ```
-
-
-2. Baixe o sqlite (banco de dados) :
+   
+2. Entre na pasta do Backend :
+   ```bash
+   cd backend/
+   ```
+   
+3. Baixe o sqlite (banco de dados) :
    ```bash
    npm install sqlite3@5.0.2
    ```
 
-3. Instale as dependências do backend:
+4. Instale as dependências do backend:
    ```bash
    npm install
    ```
 
-4. Inicie o servidor de desenvolvimento:
+5. Inicie o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
@@ -72,14 +76,17 @@ O projeto foi desenvolvido como uma aplicação full-stack, com:
 
 ### Configuração do Frontend
 
+1. Entre na pasta do frontend :
+   ```bash
+   cd sou-energy/
+   ```
 
-
-1. Instale as dependências do frontend:
+2. Instale as dependências do frontend:
    ```bash
    npm install
    ```
 
-2. Inicie o servidor de desenvolvimento:
+3. Inicie o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
