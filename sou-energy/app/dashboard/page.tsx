@@ -70,9 +70,7 @@ export default function UserDashboard() {
             <p className="mt-2 text-sm text-gray-500">
               Estamos trabalhando para trazer informações detalhadas e gráficos de seu consumo energético.
             </p>
-            <button className="mt-4 sm:mt-6 px-5 py-2 bg-[#3163CF] text-white rounded-md hover:bg-blue-700 transition duration-150 font-medium shadow-sm">
-              Verificar Conta
-            </button>
+           
           </div>
         </div>
       </div>
