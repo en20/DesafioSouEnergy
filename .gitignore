@@ -6,3 +6,33 @@
 .env.production.local
 frontend/.env
 backend/.env 
+
+# Node modules em qualquer lugar do projeto
+node_modules/
+**/node_modules/
+**/*/node_modules/
+
+# Specific directories
+sou-energy/node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de build
+dist/
+build/
+.next/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.npm/

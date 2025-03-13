@@ -66,20 +66,20 @@ export default function Register() {
   };
   
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4 font-poppins">
-      <div className="mb-10 text-center">
-        <h1 className="text-5xl font-bold text-[#ED8130] mb-2">Sou Energy</h1>
-        <p className="text-gray-600 text-lg">Sistema de gestão de energia</p>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4 sm:px-6 font-poppins py-8">
+      <div className="mb-6 sm:mb-10 text-center">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#ED8130] mb-2">Sou Energy</h1>
+        <p className="text-gray-600 text-base sm:text-lg">Sistema de gestão de energia</p>
       </div>
       
       <div className="w-full max-w-md bg-white rounded-xl shadow-xl overflow-hidden transform transition-all">
-        <div className="bg-gradient-to-r from-[#E74432] to-[#ED8130] p-5">
-          <h2 className="text-center text-2xl font-bold text-white">
+        <div className="bg-gradient-to-r from-[#E74432] to-[#ED8130] p-4 sm:p-5">
+          <h2 className="text-center text-xl sm:text-2xl font-bold text-white">
             Criar uma conta
           </h2>
         </div>
         
-        <form className="p-8 space-y-6" onSubmit={handleSubmit}>
+        <form className="p-5 sm:p-8 space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
           {error && (
             <div className="bg-red-50 border-l-4 border-[#E74432] p-4 rounded-r-md">
               <p className="text-[#E74432] font-medium">{error}</p>
@@ -172,7 +172,7 @@ export default function Register() {
             </button>
           </div>
           
-          <div className="text-center text-sm mt-6">
+          <div className="text-center text-sm mt-4 sm:mt-6">
             <p className="text-gray-600">
               Já tem uma conta?{" "}
               <Link href="/login" className="text-[#3163CF] hover:text-blue-800 font-medium">
@@ -183,7 +183,7 @@ export default function Register() {
         </form>
       </div>
       
-      <div className="mt-8 text-center text-xs text-gray-500">
+      <div className="mt-6 sm:mt-8 text-center text-xs text-gray-500">
         &copy; {new Date().getFullYear()} Sou Energy. Todos os direitos reservados.
       </div>
     </div>
